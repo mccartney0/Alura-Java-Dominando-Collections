@@ -17,7 +17,7 @@ public class Curso {
     }
 
     public String getNome() {
-        return nome;
+        return "Curso: " + this.nome;
     }
 
     public String getInstrutor() {
