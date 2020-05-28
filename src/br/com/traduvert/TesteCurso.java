@@ -6,7 +6,7 @@ public class TesteCurso {
 
     public static void main(String[] args) {
         
-        Curso c = new Curso("Desenvolvimento de games", "Allãn Gomes");
+        Curso c = new Curso("Desenvolvimento de Games", "Allãn Gomes");
 
         List<Aula> aulas = c.getAulas();
         System.out.println(aulas);
