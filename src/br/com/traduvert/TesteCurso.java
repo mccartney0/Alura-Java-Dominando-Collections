@@ -10,7 +10,6 @@ public class TesteCurso {
 
         List<Aula> aulas = c.getAulas();
         System.out.println(aulas);
-        // c.getAulas().add(new Aula("Instalando Unity 2019", 15));
 
         c.adiciona(new Aula("Segunda Aula", 30));
 

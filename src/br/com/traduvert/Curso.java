@@ -25,6 +25,7 @@ public class Curso {
     }
 
     public List<Aula> getAulas() {
+    	//Bloqueando os métodos da List
         return Collections.unmodifiableList(aulas);
     }
 
